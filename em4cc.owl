@@ -1,0 +1,2326 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://clianglab.com/ontology/em4cc.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://clianglab.com/ontology/em4cc.owl">
+    <Prefix name="" IRI="http://clianglab.com/ontology/lceo.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://purl.obolibrary.org/obo/omrse/releases/2023-10-08/omrse.owl</Import>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <Literal>Chen Liang</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <Literal>Tianchu Lyu</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <Literal>Tuan Amith</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Literal>Working title - EM4CC (EHR Model For Co-Infection Cohort) Ontology</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Administrative_Discharge_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Admitting_Diagnosis_Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alcohol_Abuse_Care_Provider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alcohol_Referral_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antigen_Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Appropiate_Care_Incomplete_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Appropiate_Care_Unavailable_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clinical_Managed_Residential_Detox"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Community_Care_Referral_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Community_Service_Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Confirmed_Disease_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contact_Disease_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Court_Order_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Criminal_Justice_System_Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DMH_Inpatient_Died_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DMH_Inpatient_Died_in_Hospital_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DSM_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Detoxification_Ambulatory_Treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diagnosis_Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Discharge_Reason_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Discharge_While_On_Medical_Leaving_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Discountination_of_Treatment_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disease_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dropped_Out_of_Treatment_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drug_Abuse_Care_Provider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drug_Referral_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EHR_Patient_Record"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Employer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exempted_Treatment_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Family_Referral_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Friend_Referral_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hearing_Court_Order_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hospital-Outpatient_Surgery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human_Health_Care_Provider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human_Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ICD_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Imaging_Intervention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Incarcerated_by_Court_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Income_from_Disability_Assistance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Income_from_Pension_Retirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Income_from_Public_Assistance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Income_from_Wages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Individual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Influenza_A_positive_PCR_Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Influenza_A_positive_rapid_Ag_Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Influenza_B_positive_PCR_Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Influenza_B_positive_rapid_Ag_Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Influenza_positive_PCR_Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Influenza_positive_rapid_Ag_Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Injection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intensive_Outpatient_Intervention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Justice_Court_Referral_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Law_Enforcement_Referral_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Long_term_Residential_Rehabilitation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Major_Diagnosis_Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medical_Diagnostic_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medical_Reference_Referral_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medical_Testing_Intervention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mental_Health_Diagnosis_Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#No_Further_Care_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non-Intensive_Outpatient_Ambulatory_Treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Not_A_Case_Disease_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Opiod_Therapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Out_of_State_Referral_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Died_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Dropped_Out_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Eloped_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Failed_To_Return_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Lost_Contact_Treatment_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Moved_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Rejected_Service_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_Voluntary_Left_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positive_Chlamydia_pneumoniae_Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positive_Human_metapneumovirus_Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positive_Mycoplasma_pneumoniae_Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positive_Parainfluenza_Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positive_RSV_Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positive_Rhinovirus_enterovirus_Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Postive_V_Disease_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primary_Diagnosis_Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primary_Medical_Procedure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Probable_Disease_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RSV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RSV_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reason_for_Transfer_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Referral_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Referral_Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regular_Discharge_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Released_by_Court_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Respiratory_Support"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#School_Referral_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secondary_Diagnosis_Results"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secondary_Medical_Procedure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Self_Referral_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Short_term_Residential_Rehabilitation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social_Service_Referral_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Source_of_Income"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Statistical_Discharge_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Substance_Abuse_Care_Provider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Suspect_Disease_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terminated_by_Facility_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transfer_to_Another_Facility_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Treatment_Completed_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#USA_Veteran_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unknown_Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verbal_Court_Order_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vocational_Rehabilitation_Referral_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Youth_Service_Referral_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#admission_for_detox_ambulatory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#admission_for_inpatient_detox-hospital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#admission_for_intensive_ambulatory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#admission_for_non-intensive_ambulatory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#admission_for_residential_long_term"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#admission_for_residential_short_term"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#burn_intensive_care_encounter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chlamydia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chlamydia_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#death"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#death_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#detox_care_encounter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#employed_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#family_physician_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fatigue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fatigue_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fever"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fever_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#general_medical_care_encounter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#general_practitioner_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#headache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#headache_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#health_care_referral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#human_metapneumovirus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#human_metapneumovirus_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#imaging_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#immunodeficiency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#immunodeficiency_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#influenza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#influenza_a_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#influenza_b_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#influenza_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#intensive_care_encounter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kidney_disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kidney_disease_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#loss_of_taste_or_smell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#loss_of_taste_or_smell_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lupus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lupus_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#myalgia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#myalgia_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mycoplasma_pneumoniae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mycoplasma_pneumoniae_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#neurological_disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#neurological_disorder_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non-teaching_hospital_organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nursery_care_encounter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#obstetrician-gynecologist_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oncology_care_encounter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parainfluenza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parainfluenza_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#patient_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pediatric_intensive_care_encounter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pneumonia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pneumonia_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pregnant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pregnant_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#psychiatric_care_encounter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#psychiatry_intensive_care_encounter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rehabilitation_care_encounter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#renal_failure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#renal_failure_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#respiratory_support_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rhinorrhea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rhinorrhea_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rhinovirus_eterovirus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rhinovirus_eterovirus_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sore_throat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sore_throat_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#staying_at_health_care_facility_for_care"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stroke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stroke_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#teaching_hospital_organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vomiting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vomiting_ehr_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antigen_(Serology)_Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Viral_(Molecular)_Test"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ICU_days"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#admission_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#at_admission"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#attending_physician_id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#bed_size"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#current_smoker"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#date_of_death"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#date_of_intervention"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#day_of_the_week"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#days_stayed_in_health_care_facility"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#diagnosis_code"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#diagnostic_code_DSM_or_ICD"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#diagnostic_code_set_identifier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#died_from_condition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#employed_at_discharge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#family_income"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#given_icu_admission"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#health_care_encounter_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#highest_temperature"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hospital_id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hospitalized"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hours_from_admission_to_discharge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#illness_onset_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#in_patient"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#need_respiratory_support"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#number_of_tests"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#patient_id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#patient_zip_code"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#received_intervention"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#reporting_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#surgeon_id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#symptomatic"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#test_result"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#year"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#EHR_Patient_Record"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000224"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Individual"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Administrative_Discharge_Code"/>
+        <Class IRI="#Dropped_Out_of_Treatment_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Administrative_Discharge_Code"/>
+        <Class IRI="#Reason_for_Transfer_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Admitting_Diagnosis_Result"/>
+        <Class IRI="#Diagnosis_Result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alcohol_Abuse_Care_Provider"/>
+        <Class IRI="#Substance_Abuse_Care_Provider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alcohol_Referral_Code"/>
+        <Class IRI="#Referral_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antigen_Test"/>
+        <Class IRI="#Medical_Testing_Intervention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Appropiate_Care_Incomplete_Code"/>
+        <Class IRI="#Reason_for_Transfer_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Appropiate_Care_Unavailable_Code"/>
+        <Class IRI="#Reason_for_Transfer_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clinical_Managed_Residential_Detox"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OAE_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Community_Care_Referral_Code"/>
+        <Class IRI="#Referral_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Community_Service_Organization"/>
+        <Class IRI="#Referral_Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confirmed_Disease_Status"/>
+        <Class IRI="#Disease_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contact_Disease_Status"/>
+        <Class IRI="#Disease_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Court_Order_Code"/>
+        <Class IRI="#Reason_for_Transfer_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Criminal_Justice_System_Organization"/>
+        <Class IRI="#Referral_Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DMH_Inpatient_Died_Code"/>
+        <Class IRI="#Reason_for_Transfer_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DMH_Inpatient_Died_in_Hospital_Code"/>
+        <Class IRI="#DMH_Inpatient_Died_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DSM_Code"/>
+        <Class IRI="#Medical_Diagnostic_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Detoxification_Ambulatory_Treatment"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OAE_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diagnosis_Result"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diagnosis_Result"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#diagnostic_code_DSM_or_ICD"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diagnosis_Result"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#diagnostic_code_set_identifier"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diagnosis_Result"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#illness_onset_date"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Discharge_Reason_Code"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0020020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Discharge_While_On_Medical_Leaving_Code"/>
+        <Class IRI="#Reason_for_Transfer_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Discountination_of_Treatment_Code"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0020020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disease_Status"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0020020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dropped_Out_of_Treatment_Code"/>
+        <Class IRI="#Discharge_Reason_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dropped_Out_of_Treatment_Code"/>
+        <Class IRI="#Discountination_of_Treatment_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drug_Abuse_Care_Provider"/>
+        <Class IRI="#Substance_Abuse_Care_Provider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drug_Referral_Code"/>
+        <Class IRI="#Referral_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EHR_Datum_Indicator"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EHR_Datum_Indicator"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#EHR_Patient_Record"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EHR_Datum_Indicator"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000058"/>
+            <Class IRI="#Reported_Patient_Health_Condition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EHR_Datum_Indicator"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#test_result"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EHR_Patient_Record"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EHR_Patient_Record"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000219"/>
+            <Class IRI="#Human_Patient"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EHR_Patient_Record"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000312"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000227"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Employer"/>
+        <Class IRI="#Referral_Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exempted_Treatment_Code"/>
+        <Class IRI="#Discharge_Reason_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exempted_Treatment_Code"/>
+        <Class IRI="#Discountination_of_Treatment_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Family_Referral_Code"/>
+        <Class IRI="#Referral_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Friend_Referral_Code"/>
+        <Class IRI="#Referral_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hearing_Court_Order_Code"/>
+        <Class IRI="#Court_Order_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hospital-Outpatient_Surgery"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OAE_0000067"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Health_Care_Provider"/>
+        <Class IRI="#Referral_Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Health_Care_Provider"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Health_Care_Provider"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000846"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000056"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Health_Care_Provider"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OMRSE_00000167"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Health_Care_Provider"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OMRSE_00000167"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000097"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Health_Care_Provider"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OMRSE_00000167"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000126"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Health_Care_Provider"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OMRSE_00000167"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000153"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Health_Care_Provider"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OMRSE_00000167"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000161"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Health_Care_Provider"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OMRSE_00000167"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000201"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Health_Care_Provider"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000087"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000012"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Health_Care_Provider"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#attending_physician_id"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Patient"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OMRSE_00000071"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000056"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000056"/>
+            <Class IRI="#staying_at_health_care_facility_for_care"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000056"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000056"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000097"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000056"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000126"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000056"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000153"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000056"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000161"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000056"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000201"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000087"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000001"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000087"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000030"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000087"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000050"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000091"/>
+            <Class IRI="#Reported_Patient_Health_Condition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0010002"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000091"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0010002"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000205"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0010002"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000209"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0010002"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000501"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Patient"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#patient_id"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ICD_Code"/>
+        <Class IRI="#Medical_Diagnostic_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Imaging_Intervention"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OAE_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Incarcerated_by_Court_Code"/>
+        <Class IRI="#Discharge_Reason_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Incarcerated_by_Court_Code"/>
+        <Class IRI="#Discountination_of_Treatment_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Income_from_Disability_Assistance"/>
+        <Class IRI="#Source_of_Income"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Income_from_Pension_Retirement"/>
+        <Class IRI="#Source_of_Income"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Income_from_Public_Assistance"/>
+        <Class IRI="#Source_of_Income"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Income_from_Wages"/>
+        <Class IRI="#Source_of_Income"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Individual"/>
+        <Class IRI="#Referral_Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Influenza_A_positive_PCR_Test"/>
+        <Class IRI="#Medical_Testing_Intervention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Influenza_A_positive_rapid_Ag_Test"/>
+        <Class IRI="#Medical_Testing_Intervention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Influenza_B_positive_PCR_Test"/>
+        <Class IRI="#Medical_Testing_Intervention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Influenza_B_positive_rapid_Ag_Test"/>
+        <Class IRI="#Medical_Testing_Intervention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Influenza_positive_PCR_Test"/>
+        <Class IRI="#Medical_Testing_Intervention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Influenza_positive_rapid_Ag_Test"/>
+        <Class IRI="#Medical_Testing_Intervention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Injection"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OAE_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intensive_Outpatient_Intervention"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OAE_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Justice_Court_Referral_Code"/>
+        <Class IRI="#Referral_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Law_Enforcement_Referral_Code"/>
+        <Class IRI="#Referral_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Long_term_Residential_Rehabilitation"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OAE_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Major_Diagnosis_Result"/>
+        <Class IRI="#Diagnosis_Result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medical_Diagnostic_Code"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0020020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medical_Reference_Referral_Code"/>
+        <Class IRI="#Referral_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medical_Testing_Intervention"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OAE_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medical_Testing_Intervention"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#number_of_tests"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mental_Health_Diagnosis_Result"/>
+        <Class IRI="#Diagnosis_Result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#No_Further_Care_Code"/>
+        <Class IRI="#Reason_for_Transfer_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non-Intensive_Outpatient_Ambulatory_Treatment"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OAE_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Not_A_Case_Disease_Status"/>
+        <Class IRI="#Disease_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Opiod_Therapy"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OAE_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Out_of_State_Referral_Code"/>
+        <Class IRI="#Referral_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Died_Code"/>
+        <Class IRI="#Discharge_Reason_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Died_Code"/>
+        <Class IRI="#Discountination_of_Treatment_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Died_Code"/>
+        <Class IRI="#Reason_for_Transfer_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Dropped_Out_Code"/>
+        <Class IRI="#Reason_for_Transfer_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Eloped_Code"/>
+        <Class IRI="#Dropped_Out_of_Treatment_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Failed_To_Return_Code"/>
+        <Class IRI="#Dropped_Out_of_Treatment_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Lost_Contact_Treatment_Code"/>
+        <Class IRI="#Dropped_Out_of_Treatment_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Moved_Code"/>
+        <Class IRI="#Reason_for_Transfer_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Rejected_Service_Code"/>
+        <Class IRI="#Reason_for_Transfer_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_Voluntary_Left_Code"/>
+        <Class IRI="#Dropped_Out_of_Treatment_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive_Chlamydia_pneumoniae_Test"/>
+        <Class IRI="#Medical_Testing_Intervention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive_Human_metapneumovirus_Test"/>
+        <Class IRI="#Medical_Testing_Intervention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive_Mycoplasma_pneumoniae_Test"/>
+        <Class IRI="#Medical_Testing_Intervention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive_Parainfluenza_Test"/>
+        <Class IRI="#Medical_Testing_Intervention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive_RSV_Test"/>
+        <Class IRI="#Medical_Testing_Intervention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive_Rhinovirus_enterovirus_Test"/>
+        <Class IRI="#Medical_Testing_Intervention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Postive_V_Disease_Status"/>
+        <Class IRI="#Disease_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary_Diagnosis_Result"/>
+        <Class IRI="#Diagnosis_Result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary_Medical_Procedure"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OAE_0002807"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Probable_Disease_Status"/>
+        <Class IRI="#Disease_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RSV"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RSV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#RSV_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RSV_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reason_for_Transfer_Code"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0020020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Referral_Code"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0020020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Referral_Source"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Referral_Source"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000235"/>
+            <Class IRI="#Referral_Code"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regular_Discharge_Code"/>
+        <Class IRI="#Reason_for_Transfer_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Released_by_Court_Code"/>
+        <Class IRI="#Discharge_Reason_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Released_by_Court_Code"/>
+        <Class IRI="#Discountination_of_Treatment_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Respiratory_Support"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OAE_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#School_Referral_Code"/>
+        <Class IRI="#Referral_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secondary_Diagnosis_Results"/>
+        <Class IRI="#Diagnosis_Result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secondary_Medical_Procedure"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OAE_0002807"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Self_Referral_Code"/>
+        <Class IRI="#Referral_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Short_term_Residential_Rehabilitation"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OAE_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_Service_Referral_Code"/>
+        <Class IRI="#Referral_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Source_of_Income"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Statistical_Discharge_Code"/>
+        <Class IRI="#Reason_for_Transfer_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Substance_Abuse_Care_Provider"/>
+        <Class IRI="#Referral_Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Suspect_Disease_Status"/>
+        <Class IRI="#Disease_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terminated_by_Facility_Code"/>
+        <Class IRI="#Discharge_Reason_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terminated_by_Facility_Code"/>
+        <Class IRI="#Discountination_of_Treatment_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transfer_to_Another_Facility_Code"/>
+        <Class IRI="#Reason_for_Transfer_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Treatment_Completed_Code"/>
+        <Class IRI="#Discharge_Reason_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Treatment_Completed_Code"/>
+        <Class IRI="#Discountination_of_Treatment_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#USA_Veteran_Status"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unknown_Test"/>
+        <Class IRI="#Medical_Testing_Intervention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Verbal_Court_Order_Code"/>
+        <Class IRI="#Court_Order_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vocational_Rehabilitation_Referral_Code"/>
+        <Class IRI="#Referral_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Youth_Service_Referral_Code"/>
+        <Class IRI="#Referral_Code"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#admission_for_detox_ambulatory"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#admission_for_inpatient_detox-hospital"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#admission_for_intensive_ambulatory"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#admission_for_non-intensive_ambulatory"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#admission_for_residential_long_term"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#admission_for_residential_short_term"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#burn_intensive_care_encounter"/>
+        <Class IRI="#intensive_care_encounter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chlamydia"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chlamydia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#chlamydia_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chlamydia_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#death"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#death"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#death_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#death_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#detox_care_encounter"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#employed_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#family_physician_role"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fatigue"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fatigue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#fatigue_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fatigue_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fever"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fever"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#fever_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fever_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#general_medical_care_encounter"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#general_practitioner_role"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#headache"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#headache"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#headache_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#headache_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#health_care_referral"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#health_care_referral"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000235"/>
+            <Class IRI="#Reason_for_Transfer_Code"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#health_care_referral"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000057"/>
+            <Class IRI="#Referral_Source"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#health_care_referral"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002411"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000201"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human_metapneumovirus"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human_metapneumovirus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#human_metapneumovirus_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human_metapneumovirus_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#imaging_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#immunodeficiency"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#immunodeficiency"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#immunodeficiency_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#immunodeficiency_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#influenza"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#influenza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#influenza_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#influenza_a_ehr_datum"/>
+        <Class IRI="#influenza_ehr_datum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#influenza_b_ehr_datum"/>
+        <Class IRI="#influenza_ehr_datum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#influenza_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#intensive_care_encounter"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#intensive_care_encounter"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#ICU_days"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kidney_disease"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kidney_disease"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#kidney_disease_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kidney_disease_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#loss_of_taste_or_smell"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#loss_of_taste_or_smell"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#loss_of_taste_or_smell_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#loss_of_taste_or_smell_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lupus"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lupus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#lupus_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lupus_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#myalgia"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#myalgia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#myalgia_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#myalgia_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mycoplasma_pneumoniae"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mycoplasma_pneumoniae"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#mycoplasma_pneumoniae_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mycoplasma_pneumoniae_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neurological_disorder"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neurological_disorder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#neurological_disorder_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neurological_disorder_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non-teaching_hospital_organization"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nursery_care_encounter"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#obstetrician-gynecologist_role"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oncology_care_encounter"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parainfluenza"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parainfluenza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#parainfluenza_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parainfluenza_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#patient_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pediatric_intensive_care_encounter"/>
+        <Class IRI="#intensive_care_encounter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pneumonia"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pneumonia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#pneumonia_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pneumonia_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pregnant"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pregnant"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#pregnant_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pregnant_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#psychiatric_care_encounter"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#psychiatry_intensive_care_encounter"/>
+        <Class IRI="#intensive_care_encounter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rehabilitation_care_encounter"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#renal_failure"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#renal_failure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#renal_failure_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#renal_failure_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#respiratory_support_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rhinorrhea"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rhinorrhea"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#rhinorrhea_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rhinorrhea_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rhinovirus_eterovirus"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rhinovirus_eterovirus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#rhinovirus_eterovirus_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rhinovirus_eterovirus_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sore_throat"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sore_throat"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#sore_throat_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sore_throat_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#staying_at_health_care_facility_for_care"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#staying_at_health_care_facility_for_care"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000066"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000102"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#staying_at_health_care_facility_for_care"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hospitalized"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stroke"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stroke"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#stroke_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stroke_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#teaching_hospital_organization"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vomiting"/>
+        <Class IRI="#Reported_Patient_Health_Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vomiting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#vomiting_ehr_datum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vomiting_ehr_datum"/>
+        <Class IRI="#EHR_Datum_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antigen_(Serology)_Test"/>
+        <Class IRI="#Medical_Testing_Intervention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Viral_(Molecular)_Test"/>
+        <Class IRI="#Medical_Testing_Intervention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000097"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000066"/>
+            <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000062"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000097"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002411"/>
+            <Class IRI="#staying_at_health_care_facility_for_care"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000097"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#health_care_encounter_date"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000030"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
+            <Class IRI="#EHR_Datum_Indicator"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000056"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hospital_id"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000057"/>
+        <Class IRI="#Referral_Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000126"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000235"/>
+            <Class IRI="#Discharge_Reason_Code"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000126"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#day_of_the_week"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000126"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hours_from_admission_to_discharge"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000126"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#month_of_year"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000126"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#year"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000161"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000235"/>
+            <Class IRI="#Discountination_of_Treatment_Code"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000201"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#admission_date"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000201"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#day_of_the_week"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000201"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#given_icu_admission"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000201"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#month_of_year"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000201"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#year"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000221"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#patient_zip_code"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000501"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000136"/>
+            <Class IRI="#Source_of_Income"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000501"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#family_income"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#diagnostic_code_DSM_or_ICD"/>
+        <DataProperty IRI="#diagnosis_code"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#diagnostic_code_set_identifier"/>
+        <DataProperty IRI="#diagnosis_code"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#at_admission"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#attending_physician_id"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#bed_size"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#current_smoker"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#date_of_death"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#date_of_intervention"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#died_from_condition"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#employed_at_discharge"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#health_care_encounter_date"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#highest_temperature"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hospital_id"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hospitalized"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#in_patient"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#need_respiratory_support"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#patient_id"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#patient_zip_code"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#received_intervention"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#reporting_date"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#surgeon_id"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#symptomatic"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#test_result"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#bed_size"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000171"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#health_care_encounter_date"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000097"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#need_respiratory_support"/>
+        <Class IRI="#Respiratory_Support"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#number_of_tests"/>
+        <Class IRI="#Medical_Testing_Intervention"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ICU_days"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#admission_date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#at_admission"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#attending_physician_id"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#bed_size"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#current_smoker"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#date_of_death"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#date_of_intervention"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#day_of_the_week"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#days_stayed_in_health_care_facility"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#diagnostic_code_DSM_or_ICD"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#diagnostic_code_set_identifier"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#died_from_condition"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#employed_at_discharge"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#family_income"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#given_icu_admission"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#health_care_encounter_date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#highest_temperature"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hospital_id"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hospitalized"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hours_from_admission_to_discharge"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#illness_onset_date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#in_patient"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#month_of_year"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#need_respiratory_support"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#number_of_tests"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#patient_id"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#patient_zip_code"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#received_intervention"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#reporting_date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#surgeon_id"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#symptomatic"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#test_result"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#year"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000232"/>
+        <IRI>#Disease_Status</IRI>
+        <Literal>TODO: discuss with Chen</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
