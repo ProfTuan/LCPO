@@ -1,4 +1,4 @@
-# EHR Model For Co-Infection Cohort (EM4CC) Ontology
+# Long COVID Phenotype Ontology
 
 ## Description
 
