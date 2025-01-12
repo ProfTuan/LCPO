@@ -3,7 +3,7 @@
 ## Description
 
 Coming soon...
-[Core model](https://github.com/ProfTuan/LCPO/blob/9de932b70842966229ae3c35538c0359c1dac669/img/core-model.png)
+![Core model](https://github.com/ProfTuan/LCPO/blob/9de932b70842966229ae3c35538c0359c1dac669/img/core-model.png)
 
 ## Developers
 
