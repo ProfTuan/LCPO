@@ -3,7 +3,7 @@
 ## Description
 
 Coming soon...
-
+[Core model](img/core-model.png)
 
 ## Developers
 
