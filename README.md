@@ -26,8 +26,8 @@ Visualization of the extension of OMRSE’s admission process and patient discha
 
 ## Developers
 
-* Chen Liang, PhD, University of South Carolina
-* Tianchu Lyu, University of South Carolina
+* Chen Liang, PhD, University of Washington Medical School
+* Tianchu Lyu, University of California Irvine
 * Tuan Amith, PhD, University of Texas Medical Branch
 
 ## Funding and Acknowledgement
